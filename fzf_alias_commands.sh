@@ -11,14 +11,12 @@ This script uses fzf to create an interactive menu of the aliases, which the use
 Upon selecting an alias, the script executes the corresponding command.
 
 Usage:
-./main.sh
+./fzf_alias_commands.sh
 
 Dependencies:
+settings.sh: should be in the same directory as fzf_alias_commands.sh
 fzf: https://github.com/junegunn/fzf
-settings.sh: should be in the same directory as main.sh
 
-Author: Your Name
-Date: Month Day, Year
 '
 
 # Get the directory of the currently executing script
